@@ -1,0 +1,48 @@
+# GET /{module}/{api-format}
+
+curl --location --request GET 'https://munch.emuseum.com/objects/json?key={key}'
+
+
+# GET /{module}/{id}/{api-format}
+
+curl --location --request GET 'https://munch.emuseum.com/objects/4714/json?key={key}'
+
+
+# GET /search/{keyword}/{module}/{api-format}
+
+curl --location --request GET 'https://munch.emuseum.com/search/skrik/objects/json?key={key}'
+
+
+# GET /advancedsearch/{module}/{field}:{field-value}/{api-format}
+
+curl --location --request GET 'https://munch.emuseum.com/advancedsearch/objects/title:skrik/json?key={key}'
+
+
+# GET /{module}/{api-format}?filter
+
+curl --location --request GET 'https://munch.emuseum.com/objects/json?filter=thesfilter:1545220&key={key}'
+
+
+# GET /{search}/{keyword}/{module}/{api-format}?filter
+
+curl --location --request GET 'https://munch.emuseum.com/search/skrik/objects/json?filter=department:Munch-samlingen&key={key}'
+
+
+# GET /{module}/{api-format}?page
+
+curl --location --request GET 'http://munch.emuseum.com/objects/json?page=2&key={key}'
+
+
+# GET /{module}/{api-format}?sort
+
+curl --location --request GET 'https://munch.emuseum.com/objects/json?sort=displayDate-asc&key={key}'
+
+
+# GET /search/{keyword}/{module}/{api-format}?sort
+
+curl --location --request GET 'https://munch.emuseum.com/search/skrik/objects/json?sort=invno-asc&key={key}'
+
+
+# GET /advancedsearch/{module}/{field}:{field-value}/{api-format}?sort
+
+curl --location --request GET 'https://munch.emuseum.com/advancedsearch/objects/title:skrik/json?sort=displayDate-asc&key={key}'
