@@ -1,5 +1,7 @@
 # Introduction
-REST API for the Munch Museum. The API contains drawings and sketches by Edward Munch
+REST API for the Munch Museum. The API contains drawings and sketches by Edward Munch.
+
+The API is also documented with [Postman](https://documenter.getpostman.com/view/2789837/S1TYUbGW).
 
 # Overview
 Base URL for the API is https://munch.emuseum.com.
