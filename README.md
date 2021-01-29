@@ -1,5 +1,5 @@
 # Introduction
-REST API for the Munch Museum. The API contains drawings and sketches by Edward Munch.
+REST API for collection metadata from Munchmuseet. The API is part of [eMuseum](https://www.gallerysystems.com/solutions/online-collections/) and is developed by [Gallery Systems](https://www.gallerysystems.com).
 
 The API is also documented with [Postman](https://documenter.getpostman.com/view/2789837/S1TYUbGW).
 
